@@ -7,6 +7,7 @@
  */
 (function () {
     const __main__ = async () => {
+        alert('q');
         window?.OneSignalDeferred = window?.OneSignalDeferred || [];
         OneSignalDeferred.push(async function (OneSignal) {
             await OneSignal.init({
